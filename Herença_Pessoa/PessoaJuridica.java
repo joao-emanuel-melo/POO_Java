@@ -1,10 +1,12 @@
+package Herença_Pessoa;
 public class PessoaJuridica extends Pessoa{
     private String cnpj;
 
-    public PessoaFisica(String nome, int idade, String cnpj){
+    public PessoaJuridica(String nome, int idade, String cnpj){
+        super(nome, idade);
         this.cnpj = cnpj
     }
-    public int getCnpj(){
+    public String getCnpj(){
         return cnpj;
     }
 

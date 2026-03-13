@@ -1,3 +1,4 @@
+package Herença_Pessoa;
 public class Pessoa{
     private String nome;
     private int idade;
