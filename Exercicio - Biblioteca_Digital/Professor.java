@@ -10,7 +10,7 @@ public class Professor extends Usuario {
     public int diasParaDevolver() { return 14; }
 
     @Override
-    public double taxaPorAtrasoDiario() { return 1.00; } // Regra fixa do PDF
+    public double taxaPorAtrasoDiario() { return 1.00; }
 
     @Override
     public String categoriaUsuario() { return "Professor"; }
