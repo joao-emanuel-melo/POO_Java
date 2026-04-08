@@ -10,7 +10,7 @@ public class Aluno extends Usuario {
     public int diasParaDevolver() { return 7; }
 
     @Override
-    public double taxaPorAtrasoDiario() { return 2.50; } // Regra fixa do PDF
+    public double taxaPorAtrasoDiario() { return 2.50; }
 
     @Override
     public String categoriaUsuario() { return "Aluno"; }
