@@ -1,7 +1,0 @@
-import java.util.Scanner;
-import java.util.UUID;
-
-public class main{
-    public static int TotalFuncionario(Nome n)
-    
-}
